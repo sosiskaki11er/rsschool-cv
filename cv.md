@@ -54,32 +54,6 @@ void write() {
     ofstream work_file("TABLE.csv");
     work_file << number << ";" << megabytes << ";" << minutes << ";" << SMS << ";" << tariff << endl;
 }
-
-void read()
-{
-
-    ifstream work_file("TABLE.csv");
-  
-    cout << "Input your ID" << endl;
-    cin >> NUM;
-    while (work_file.good()) {
-        getline(work_file, number, ';');
-        getline(work_file, megabytes, ';');
-        getline(work_file, minutes, ';');
-        getline(work_file, SMS, ';');
-        getline(work_file, tariff, '\n');
-        if (NUM == number) {
-            cout << "Number: " << number << endl;
-            cout << "Megabytes: " << megabytes << endl;
-            cout << "Minutes: " << minutes << endl;
-            cout << "SMS: " << SMS << endl;
-            cout << "Tariff: " << tariff << endl;
-            cout << "-------------------------" << endl;
-        }
-    }
-    work_file.close();
-   
-} 
 ```
 
 
