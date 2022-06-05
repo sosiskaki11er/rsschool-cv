@@ -5,7 +5,7 @@
 - E-mail: amikamaymun@gmail.com
 - Phone number: +998943600663
 - GitHub: sosiskaki11er
-- Discord RS School server:Amir(@sosiskaki11er)
+- Discord RS School server: Amir(@sosiskaki11er)
 
 ## About me: ##
   I am 18 years old. At the moment I'm getting bachelour degree in INHA University in Tashkent. My main ambition is to become senior web frontend debeloper and web-designer and the reason for this could be that I'm really interested in visual part of modern web-sites
@@ -29,7 +29,8 @@
 
 ## Code examples: ##
 
-``` #include <iostream>
+``` 
+#include <iostream>
 #include <sstream>
 #include <fstream>
 using namespace std;  
@@ -52,12 +53,8 @@ void write() {
     cin >> tariff;
     ofstream work_file("TABLE.csv");
     work_file << number << ";" << megabytes << ";" << minutes << ";" << SMS << ";" << tariff << endl;
-
-
-
-
-
 }
+
 void read()
 {
 
@@ -82,8 +79,10 @@ void read()
     }
     work_file.close();
    
-}
+} 
 ```
+
+
 ## Job experience: ##
 - IUT SU Internship(as posts,logo and banner designer)
 
