@@ -1,1 +1,56 @@
-/*some important text
+@media screen(max-width:1440px) {
+    
+}
+#header-block{
+    background-color: #A786B1;
+    width:90% ;
+    height: 413px;
+    position: absolute;
+    top:23px;
+    left:70px;
+  
+}
+#side-block{
+    background-color: #343434;
+    width: 595px;
+    height:100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+#my-photo{
+    position: relative;
+    top:66px;
+    left:73px;
+}
+#text{
+    color:white;
+    font-family:Arial, sans-serif ;
+
+}
+#name{
+    font-family:Arial, sans-serif ;
+    color: white;
+    font-size: 3.5em;
+    position: absolute;
+    top:80px;
+    left:441px;
+    bottom: 203px;
+}
+#qualific{
+    font-family:Arial, sans-serif ;
+    color: white;
+    font-size: 3em;
+    position: absolute;
+    top:180px;
+    left:441px;
+    bottom: 203px;
+}
+#con-head{
+    font-family:Arial, sans-serif ;
+    color: #A786B1;
+    font-weight: 100;
+    position: absolute;
+    top:489px;
+    left:73px;
+}
