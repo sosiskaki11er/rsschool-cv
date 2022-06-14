@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amir Ziyarkhodjaev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="side-info" id="side-block"></div>
+        <div id="header-block">
+            <nav class="nav">
+                <ul class="list">
+                  <li><a href="#about" class="link">About</a></li>
+                  <li ><a href="#con-head" class="link">Contacts</a></li>
+                  <li><a href="#point-head" class="link">Points</a></li>
+                  <li><a href="#skill-head" class="link">Skills</a></li>
+                  <li><a href="#code" class="link">Code</a></li>
+                  <li><a href="#job-head" class="link">JE</a></li>
+                  <li><a href="#edu-head" class="link">Education</a></li>
+                  <li><a href="#lang-head" class="link">Languages</a></li>
+                </ul>
+              </nav>
+            <img id="my-photo" src="./img/photo.PNG" width="310" alt="my photo">
+            <h1 class="text" id="name">AMIR ZIYARKHODJAEV</h1>
+            <p class="text" id="qualific">Web-frontend developer</p>
+        </div>
+    </header>
+    <main>
+     <h2 class="text" id="con-head">CONTACTS</h2>   
+     <div id="sec-contacts">
+      <ul>
+        <li>E-mail: amikamaymun@gmail.com</li>
+        <li>Phone number: +998943600663</li>
+        <li>GitHub: sosiskaki11er</li>
+        <li>Discord RS School server: Amir(@sosiskaki11er)</li>
+      </ul> 
+     </div> 
+     <h2 class="text" id="point-head">STRONG POINTS</h2>
+     <div id="sec-points">
+        <ul>
+          <li >Creativity</li>
+          <li>Punctuality</li>
+          <li>Ability to learn anything constantly</li>
+          <li>Positive thinking</li>
+        </ul> 
+     </div>
+     <h2 class="text" id="skill-head">SKILLS</h2>
+     <div id="sec-skills">
+        <ul>
+          <li >web design</li>
+          <li>Mobile UI/UX design</li>
+          <li>Logos,posts and banners design</li>
+          <li>C++</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git and GitHub basics</li>
+        </ul>
+     </div>
+     <h2 class="text" id="lang-head">LANGUAGES</h2>
+     <div id="sec-lang">
+        <ul>
+          <li>Russian(native speeker level)</li>
+          <li>Uzbek(yaxshimisiz/charchamaypsizmi level)</li>
+          <li>English(IELTS 6.5 band score(B2))</li>
+        </ul>
+     </div>    
+    </main>
+    <aside>
+        <h2 class="side-text" id="about">ABOUT ME</h2>
+        <div id="about-text">
+           <p>I am 18 years old. At the moment I’m getting bachelour degree in INHA University in Tashkent. My main ambition is to become senior web frontend debeloper and web-designer and the reason for this could be that I’m really interested in visual part of modern web-sites
+           </p>
+        </div>
+        <h2 class="side-text" id="code">CODE</h2>
+        <div id="code-text">
+          <pre><code>
+using namespace std;  
+string NUM;
+string number;
+string megabytes;
+string minutes;
+string SMS;
+string tariff;
+void write() {
+ cout << "Input number: ";
+ cin >> number;
+ cout << "Input megabytes: ";
+ cin >> megabytes;
+ cout << "Input minutes: ";
+ cin >> minutes;
+ cout << "Input SMS: ";
+ cin >> SMS;
+ cout << "Input tariff: ";
+ cin >> tariff;
+ ofstream work_file("TABLE.csv");
+ work_file << number << ";" << 
+ megabytes << ";" << minutes << ";" << 
+ SMS << ";" << tariff << endl;
+ }
+            </code></pre>
+        </div>
+        <h2 class="text" id="job-head">JOB EXPERIENCE</h2>
+        <div id="sec-job">
+           <ul>
+             <li>IUT SU Internship(as posts,logo and banner designer)
+                  <ol>
+                     <li><a class="ref" href="https://www.figma.com/file/3jtW0AtmIkRLpwsjdr8GBO/Untitled?node-id=0%3A1">Banner and ticket</a></li>
+                     <li><a class="ref" href="https://www.figma.com/file/sxJ6T9Ll9wptsoeUEhB02Z/Untitled?node-id=18%3A37">Web-site design</a></li>
+                 </ol>
+                </li>
+            </ul>
+        </div> 
+        <h2 class="text" id="edu-head">EDUCATION</h2>
+     <div id="sec-edu">
+        <ul>
+          <li >web design</li>
+          <li>Mobile UI/UX design</li>
+          <li>Logos,posts and banners design</li>
+          <li>C++</li>
+        </ul>
+     </div>
+    </aside>
+    <footer>
+        <div id="footer-back"></div>
+        <a href="https://github.com/sosiskaki11er"><img id="git-logo" src="./img/git-logo.png" alt="git-logo" width="63"></a>
+        <h2 id="git-nick">sosiskaki11er</h2>
+        <a href="https://rs.school/js/"><img id="rs-logo" src="./img/rs-logo.png" alt="rs-logo" width="275"></a>
+    </footer>
+</body>
+</html>
